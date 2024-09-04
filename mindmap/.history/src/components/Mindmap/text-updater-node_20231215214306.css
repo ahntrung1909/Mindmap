@@ -1,0 +1,8 @@
+.text-updater-node {
+  height: 50px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  background: white;
+  padding: 20px;
+  display: flex;
+}

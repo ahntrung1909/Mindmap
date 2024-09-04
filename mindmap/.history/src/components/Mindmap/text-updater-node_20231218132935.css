@@ -1,0 +1,24 @@
+.text-updater-node {
+  border: 1px solid #eee;
+  background: cadetblue;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.text-updater-node div textarea {
+  width: 100%;
+  height: 100%;
+}
+.node-name {
+  background-color: transparent;
+  color: white;
+  padding: 4px;
+}
+.node-name.focus {
+  border: 1px solid white;
+}
+.text-updater-node.focus {
+  background: rgb(75, 201, 206);
+}

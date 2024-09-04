@@ -1,0 +1,36 @@
+import { useCallback } from "react";
+import { Handle, Position } from "reactflow";
+
+function TextUpdaterNode({ data, isConnectable }) {
+  const onChange = useCallback((evt) => {
+    console.log(evt.target.value);
+  }, []);
+
+  return (
+    <div className="text-updater-node">
+      <Handle
+        type="target"
+        position={Position.Top}
+        isConnectable={isConnectable}
+      />
+      <div>
+        <input
+          id="text"
+          name="text"
+          onChange={onChange}
+          className="nodrag"
+          value="Xin chao"
+        />
+      </div>
+
+      <Handle
+        type="source"
+        position={Position.Bottom}
+        id="b"
+        isConnectable={isConnectable}
+      />
+    </div>
+  );
+}
+
+export default TextUpdaterNode;

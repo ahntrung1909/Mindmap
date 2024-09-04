@@ -1,0 +1,13 @@
+.text-updater-node {
+  border: 1px solid #eee;
+  border-radius: 5px;
+  background: cadetblue;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.node-name {
+  background-color: transparent;
+  color: white;
+}

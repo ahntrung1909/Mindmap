@@ -1,0 +1,11 @@
+.text-updater-node {
+  height: 50px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  background: blue;
+  padding: 20px;
+}
+.node-name {
+  background-color: transparent;
+  user-select: none;
+}
